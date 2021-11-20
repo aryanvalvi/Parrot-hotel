@@ -148,8 +148,12 @@ nav :hover{
    /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
+       
 
    }
+    body{
+        padding:1rem;
+    }
    
 }
 
