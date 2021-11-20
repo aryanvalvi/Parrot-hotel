@@ -151,10 +151,14 @@ nav :hover{
        
 
    }
-    body{
-        padding:0px;
     }
-   
+   .heading-primary-sub{
+    font-size:0.5rem ;
+   }
+   body{
+       padding: 1rem;
+       letter-spacing: 0.5rem;
+   }
 }
 
 
