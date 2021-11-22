@@ -1,7 +1,4 @@
- .container{
-    display: flex;
 
-}
 
 
 .table1{
@@ -55,7 +52,11 @@
 }
 
 
+@media (min-width:900px){
+    .container{
+        display: flex;}
 
+}
 
 
 
