@@ -1,28 +1,40 @@
-.container1{
-    display: block;
-    max-width: 200px;
-    position: absolute;
-    top: 30%;
-    left: 20%;
+ .container{
+    display: flex;
 
 }
-.container2{
-    display: block;
-    max-width: 300px;
-   
-    float: right;
-    position: absolute;
-    top: 30%;
-    left: 38%;
+
+
+.table1{
+  margin-top: 250px;
+  font-size: 15px;
+  flex: 1;
+  background-color:rgba(223, 234, 255, 0.6);
+  margin-right: 40px;
+  margin-left: 10px;
+  text-align: center;
+  
 
 }
-.container3{
-    display: block;
-    max-width: 300px;
-    float: right;
-    position: absolute;
-    top: 30%;
-    left: 60%;
+.table2{
+    margin-top: 250px;
+    font-size: 15px;
+    flex: 1;
+    background-color:rgba(223, 234, 255, 0.6);
+    margin-right: 40px;
+    text-align: center;
+  
+
+}
+.table3{
+    margin-top: 250px;
+    font-size: 15px;
+    flex: 1;
+    background-color:rgba(223, 234, 255, 0.6);
+    margin-right: 40px;
+    margin-right: 10px;
+    text-align: center;
+    
+  
 
 }
 
@@ -41,3 +53,55 @@
 .group {
 	zoom: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+html{
+    font-size: 62.5%;
+  
+}
+
+
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+  
+}
+body{
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+.header{
+    height: 95vh;
+    
+  background-image: linear-gradient(to right bottom,rgba(133, 222, 255, 0.789), rgba(40, 180, 133, 0.802)), url(../images/bg.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 90%);
+  position: relative;
+}
+.logo-box{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.logo{
+    height: 9rem;
+}
+ 
