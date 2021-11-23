@@ -47,7 +47,7 @@ height: 95vh;
 .table1{
     flex: 1;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: rgba(105, 147, 165, 0.755);
     margin-right: 10px;
    margin-left: 10px;
@@ -56,7 +56,7 @@ height: 95vh;
 .table2{
  flex: 1;
  text-align: center;
- margin-top: 200px;
+ margin-top: 100px;
  background-color: hsla(198, 25%, 53%, 0.755);
  margin-right: 10px;
 
@@ -64,36 +64,61 @@ height: 95vh;
 .table3{
   flex: 1;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
   background-color: hsla(198, 25%, 53%, 0.755);
   margin-right: 10px;
  
 }
 .save{
-    margin-top:450px;
+    margin-top:350px;
     position: absolute;
     left: 650px;
 }
 .save2{
-    margin-top:450px;
+    margin-top:350px;
     position: absolute;
     left: 1090px;
 }
 .save3{
-    margin-top:450px;
+    margin-top:350px;
     position: absolute;
     left: 220px;
 }
 
 
 
-
-
+#basic{
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 1000rem;
+    transition: all .2s;
+    
+    font-size: 1rem;
+}
+#basic:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,0.2);
+}
+#basic:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
 
     
 }
 @media (max-width:500px){
+      .container{
+          height: 180vh;
+
+        font-size: 20px;
+      }
+
+
     .table1{
+        
        margin-left: 150px;
        text-align: center;
        background-color: rgba(105, 147, 165, 0.755);
@@ -115,6 +140,27 @@ height: 95vh;
         background-color: rgba(105, 147, 165, 0.755);
     }
     .save3{
-        margin-left: 210px;
+        margin-left: 220px;
     }
+    
+#basic{
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1px 1px;
+    display: inline-block;
+    border-radius: 1000rem;
+    transition: all .2s;
+    margin-bottom: 10px;
+    
+    font-size: 1rem;
+}
+#basic:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,0.2);
+}
+#basic:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
 }
