@@ -119,28 +119,28 @@ height: 95vh;
 
     .table1{
         
-       /*margin-left: 150px;*/
+       margin-left: 75px;
        text-align: center;
        background-color: rgba(105, 147, 165, 0.755);
     }
     .save{
-       /* margin-left: 200px;*/
+        margin-left: 100px;
     }
     .table2{
-      /*  margin-left: 150px;*/
+        margin-left: 75px;
         text-align: center;
         background-color: rgba(105, 147, 165, 0.755);
     }
     .save2{
-        /*margin-left: 200px;*/
+        margin-left: 100px;
     }
     .table3{
-       /* margin-left: 150px;*/
+        margin-left: 150px;
         text-align: center;
         background-color: rgba(105, 147, 165, 0.755);
     }
     .save3{
-        /*margin-left: 220px;*/
+        margin-left: 110px;
     }
     
 #basic{
