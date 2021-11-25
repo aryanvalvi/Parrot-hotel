@@ -1,0 +1,152 @@
+.container{
+    background-image: linear-gradient(to right bottom,rgba(133, 222, 255, 0.789), rgba(40, 180, 133, 0.802)), url(../images/bg.jpg);
+    height: 125vh;
+    background-size: cover;
+    background-position: top;
+}
+.form{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 30px;
+    
+}
+
+body{
+    padding:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #fff; 
+ 
+}
+#firstname,#lastname,#email {
+    padding: 5px;
+    width: 400px;
+  
+}
+
+.btn{
+    background-color: rgb(132, 175, 213);
+    color: #fff;
+}
+
+#submit{
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 1000rem;
+    transition: all .2s;
+    
+    font-size: 1rem;
+}
+#submit:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,0.2);
+}
+#submit:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
+#submit{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+
+.payment{
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 1000rem;
+    transition: all .2s;
+    
+    font-size: 1.6rem;
+}
+#payment:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,0.2);
+}
+#payment:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
+
+#payment{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+@media (max-width:500px){
+    #firstname,#lastname,#email {
+        padding: 2.5px;
+        width: 200px;
+      
+    }
+    .form{
+        margin-top: 50px;
+    }
+    
+.btn{
+    background-color: rgb(132, 175, 213);
+    color: #fff;
+}
+
+#submit{
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 1000rem;
+    transition: all .2s;
+    
+    font-size: .9rem;
+}
+#submit:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,0.2);
+}
+#submit:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
+#submit{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+
+.payment{
+    border-radius: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    display: inline-block;
+    border-radius: 1000rem;
+    transition: all .2s;
+    
+    font-size: 1.6rem;
+}
+#payment:hover{
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,0.2);
+}
+#payment:active{
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
+}
+
+#payment{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+}
+    
+}
