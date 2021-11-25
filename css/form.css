@@ -1,5 +1,5 @@
 .container{
-    background-image: linear-gradient(to right bottom,rgba(133, 222, 255, 0.789), rgba(40, 180, 133, 0.802)), url(../images/bg.jpg);
+    background-image: linear-gradient(to right bottom,rgba(133, 222, 255, 0.5), rgba(40, 180, 133, 0.5)), url(../images/bg.jpg);
     height: 125vh;
     background-size: cover;
     background-position: top;
