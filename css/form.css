@@ -118,8 +118,8 @@ body{
 }
 #submit{
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top:100%;
+    left: 0%;
 }
 
 
@@ -145,7 +145,7 @@ body{
 
 #payment{
     position: absolute;
-    top: 90%;
+    top: 120%;
     left: 25%;
 }
     
