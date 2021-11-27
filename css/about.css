@@ -1,0 +1,68 @@
+.container{
+    background-image: linear-gradient(to right bottom,rgba(133, 222, 255, 0.5), rgba(28, 119, 89, 0.5)), url(../images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 90%);
+}
+.para{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    max-width: 400px;
+    /* background-color:rgb(69, 193, 229,0.4) ; */
+    background-color:rgb(0,0,0,0.1);
+    color: rgba(133, 222, 255, 0.999);
+    font-family: 'Pacifico', cursive;
+}
+
+.main{
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: rgb(40, 54, 74);
+    text-decoration: underline;
+
+}
+
+@media (max-width:500px){
+    .main{
+        position: absolute;
+    top: 20%;
+    left: 27%;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: rgb(40, 54, 74);
+    text-decoration: underline;
+    }
+    .para{
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        max-width: 350px;
+        /* background-color:rgb(69, 193, 229,0.4) ; */
+        background-color:rgb(0,0,0,0.1);
+        color: rgba(133, 222, 255, 0.999);
+        font-family: 'Pacifico', cursive;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
