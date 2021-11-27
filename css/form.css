@@ -84,7 +84,7 @@ body{
 }
 @media (max-width:500px){
     #firstname,#lastname,#email {
-        padding: 2.5px;
+        padding: 2px;
         width: 200px;
       
     }
